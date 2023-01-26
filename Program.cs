@@ -12,12 +12,11 @@ namespace sayının_karesini_alma
         {
 
 
-            Console.WriteLine("Lütfen 1. Sayıyı Girirniz");
+            Console.WriteLine("Lütfen Bir Sayı Girirniz");
             int sayi = Int32.Parse(Console.ReadLine());
             int karesi = sayi * sayi;
-            Console.WriteLine("Lütfen 2. Sayıyı Giriniz");
-            int sayi = Int32.Parse(Console.ReadLine());
-            int karesi = sayi * sayi;
+            int sonuc=(sayi*sayi);
+            Console.WriteLine("Sayının Karesi Şudur{0}",sonuc);
             Console.ReadLine();
 
 
